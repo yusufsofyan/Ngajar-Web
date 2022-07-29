@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Materi CSS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <style>
+            ul.materi > li {
+                margin-left: 20px;
+            }
+            ul.materi > li:not(:first-child) {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+            <div class="container justify-content-start">
+                <a class="navbar-brand" href="index.html">Materi Website</a>
+                <ul class="d-flex p-0 mb-0">
+                    <li class="d-inline-block w-auto mx-3"><a style="color: black; text-decoration: none;" href="html.html">HTML</a></li>
+                    <li class="d-inline-block w-auto mx-3"><a style="color: black; text-decoration: none;" href="css.html">CSS</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="container materi">
+            <li> Menghubungkan File CSS [inline, internal, external] </li>
+            <li> Struktur dasar [selector, atribur, value, id, class] </li>
+            <li> Background [color, image, repeat, attactmen, position] </li>
+            <li> text [color, align, decoration, indent, transform, letter-spacing, line-height, word-spacing] </li>
+            <li> Font [size, family, weight] </li>
+            <li> link [:link, :visited, :hover, :active, :focus] </li>
+            <li> Dimensi [width, Height, max-width, max-height] </li>
+            <li> Display [inline, block, inline-block, none, visibility, opacity] </li>
+            <li> Box Model [margin, padding, border] </li>
+            <li> Position [Static, relative, absolute, fixed, top, left, z-index, float] </li>
+            <li> Second Selector [spasi, >, +, ~] </li>
+            <li> Border Radius, box-shadow (h,v,b,s,c), box-sizing border-box </li>
+            <li> Text Shadow (h,v,b,s,c)</li>
+            <li> WordWrap [break-word], overflow [xy,scroll, hidden], text-overflow: ellipis, resize </li>
+            <li> 2D transformation, transform [translate, rotate, scale, skew] </li>
+            <li> Transition [delay, timing-function] </li>
+            <li> Perspective [Origin] </li>
+            <li> 3D transformation, transform [translateZ] </li>
+            <li> Animasi, [animation-name, duration, iteration-count, direction @keyframe, nama, from, to, delay, fill-mode, ] </li>
+            <li> FontFace </li>
+            <li> PsudoClass </li>
+            <li> Grid, Flex, CSS unit </li>
+        </ul>
+    </body>
+
+</html>
